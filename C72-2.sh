@@ -13,10 +13,10 @@ done
 
 yum remove kernel-headers -y
 # http://mirror.rc.usf.edu/compute_lock/elrepo/kernel/el7/x86_64/RPMS/
-yum install -y https://raw.githubusercontent.com/xratzh/CBBR/master/kernel7/kernel-ml-headers-4.10.9-1.el7.elrepo.x86_64.rpm
-yum install -y https://raw.githubusercontent.com/xratzh/CBBR/master/kernel7/kernel-ml-devel-4.10.9-1.el7.elrepo.x86_64.rpm
-yum install -y https://raw.githubusercontent.com/xratzh/CBBR/master/kernel7/kernel-ml-tools-libs-4.10.9-1.el7.elrepo.x86_64.rpm
-yum install -y https://raw.githubusercontent.com/xratzh/CBBR/master/kernel7/kernel-ml-tools-4.10.9-1.el7.elrepo.x86_64.rpm
+yum install -y http://mirror.rc.usf.edu/compute_lock/elrepo/kernel/el7/x86_64/RPMS/kernel-ml-headers-4.10.9-1.el7.elrepo.x86_64.rpm
+yum install -y http://mirror.rc.usf.edu/compute_lock/elrepo/kernel/el7/x86_64/RPMS/kernel-ml-devel-4.10.9-1.el7.elrepo.x86_64.rpm
+yum install -y http://mirror.rc.usf.edu/compute_lock/elrepo/kernel/el7/x86_64/RPMS/kernel-ml-tools-libs-4.10.9-1.el7.elrepo.x86_64.rpm
+yum install -y http://mirror.rc.usf.edu/compute_lock/elrepo/kernel/el7/x86_64/RPMS/kernel-ml-tools-4.10.9-1.el7.elrepo.x86_64.rpm
 
 yum install make gcc -y
 wget -O ./tcp_bbr_powered.c https://gist.github.com/anonymous/ba338038e799eafbba173215153a7f3a/raw/55ff1e45c97b46f12261e07ca07633a9922ad55d/tcp_tsunami.c
